@@ -59,12 +59,12 @@ export function Hero() {
             <img
               src="/assets/giri.jpg"
               alt="Sagar Giri"
-              className="relative w-full max-w-lg mx-auto rounded-full shadow-2xl transform hover:scale-105 transition-transform duration-500"
+              className="relative w-full aspect-1 max-w-lg mx-auto rounded-full shadow-2xl transform hover:scale-105 transition-transform duration-500 object-cover"
             />
           </div>
 
         </div>
-
+    
         {/* Scroll Indicator */}
         <div className="absolute bottom-[-1rem] left-1/2 -translate-x-1/2 animate-bounce">
           <Link
