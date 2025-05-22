@@ -5,13 +5,13 @@ import { ExperienceCard } from "./ui/ExperienceCard";
 const experiences = [
   {
     title: "Research Intern",
-    company: "NAAMII",
+    company: "NAAMII (Nepal Applied Mathematics and Informatics Institute for Research) ",
     period: "April 2025 - Present",
-    description: `Researched the architecture and working principles of multimodal AI systems integrating vision and language. 
-    Explored various Natural Language Processing (NLP) methods and techniques, including transformers and attention mechanisms.. 
-    Analyzed medical imaging datasets and studied deep learning models applied in diagnostic imaging.
-    Investigated Retrieval-Augmented Generation (RAG) frameworks for improving information retrieval and response generation in AI systems.`,
-    skills: ["NLP", "Multimodel", "Pytorch", "Python", ""],
+    description: `Conducting research in Natural Language Processing (NLP) and multimodal systems, with a focus on combining text and vision-based models. 
+    Currently working on a multimodal brain tumor segmentation project involving MRI data and deep learning-based medical image analysis. 
+    Gaining practical experience in medical imaging techniques, including data preprocessing, annotation interpretation, and segmentation modeling using state-of-the-art architectures.
+    Collaborating with cross-functional researchers to apply AI in healthcare, contributing to real-world clinical impact.`,
+    skills: ["NLP", "Multimodel", "Pytorch", "Python"],
   },
   {
     title: "AI Fellow",
@@ -20,7 +20,7 @@ const experiences = [
     description: `Proficient in Scikit-learn, Keras and Pytorch for ML.
  Experienced in Deep Neural Network , Computer Vision(CNN) and NLP(RNN,LLMs).
  Familiar with MLOps for model deployment.`,
-    skills: ["Next.js", "PostgreSQL", "Git", "TailwindCSS", "Team Leadership"],
+    skills: ["Image processing ", "Traditional ML models", "Data Analytics", "Language Processing", "OCR"],
   },
   {
     title: "Event Manager",
