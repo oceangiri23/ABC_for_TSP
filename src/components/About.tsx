@@ -9,8 +9,7 @@ const aboutSections = [
     description: [
       "A Final-year Computer Engineering student at IOE, Pulchowk Campus.",
       "Working in the field of  AI, NLP, and multimodal systems.",
-      "Research Intern at NAAMI, exploring advanced research in applied AI.,
-",
+      "Research Intern at NAAMI, exploring advanced research in applied AI.",
     ],
     color: "bg-blue-600",
   },
