@@ -22,13 +22,11 @@ function App() {
     <>
       
       <div className={`min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-opacity `}>
-        <CustomCursor />
         <Navbar />
         <Hero />
         <About />
         <Skills />
         <Projects />
-        <Blogs />
         <Experience />
         <Certifications />
         <Education />
