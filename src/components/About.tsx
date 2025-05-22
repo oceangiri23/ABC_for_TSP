@@ -7,9 +7,10 @@ const aboutSections = [
     icon: User2,
     title: "Who I Am",
     description: [
-      "A full-stack developer having interest in software engineering.",
-      "Enjoy solving problems and building scalable applications.",
-      "Always learning new technologies to improve my skills.",
+      "A Final-year Computer Engineering student at IOE, Pulchowk Campus",
+      "Working in the field of  AI, NLP, and multimodal systems",
+      "Research Intern at NAAMI, exploring advanced research in applied AI.
+",
     ],
     color: "bg-blue-600",
   },
@@ -17,9 +18,9 @@ const aboutSections = [
     icon: Code2,
     title: "What I Do",
     description: [
-      "Develop high-performance web apps using modern tech stacks.",
-      "Solve algorithmic problems and optimize code efficiency.",
-      "Contribute to open-source and follow industry trends.",
+      "Build intelligent systems.",
+      "Conduct research to solve real-world problems using data and machine learning.",
+      "Stay updated with emerging AI trends and contribute to impactful projects.",
     ],
     color: "bg-purple-600",
   },
@@ -27,9 +28,8 @@ const aboutSections = [
     icon: GoGoal,
     title: "My Goals",
     description: [
-      "Build tech products that solve real-world challenges at scale.",
-      "Advance as a full-stack developer with modern frameworks.",
-      "Grow the dev community through open-source contributions.",
+      "Advance the frontiers of AI through research-driven development",
+      "Collaborate in research communities and contribute to open AI innovations",
     ],
     color: "bg-green-600",
   },
@@ -37,9 +37,7 @@ const aboutSections = [
     icon: Lightbulb,
     title: "My Philosophy",
     description: [
-      "Technology should simplify lives, not complicate them.",
-      "Great software solves problems, not just writes code.",
-      "Continuous learning keeps you ahead in tech.",
+      "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
     ],
     color: "bg-orange-600",
   },
@@ -65,8 +63,8 @@ export function About() {
              where I explore advanced research topics. My primary research interests lie in Natural Language Processing (NLP) 
              and multimodal systems.<br/>
 
-            As a dedicated and motivated learning enthusiast, I am deeply passionate about advancing AI and data technologies.
-             I am committed to leveraging innovative development programs to drive progress and deliver impactful solutions in the 
+            As a dedicated and motivated learner, I am interested about advancing AI and data technologies.
+             I am committed to developing innovative development programs to drive progress and deliver impactful solutions in the 
              fields of AI/ML, with a strong focus on research-driven approaches to solving real-world applied AI challenges.<br/>
 
             Apart from my academic and professional pursuits, I am also an avid cook and enjoy preparing a wide variety of
