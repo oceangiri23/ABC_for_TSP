@@ -27,6 +27,13 @@ const certifications = [
     link: "https://drive.google.com/file/d/1qzhRhcs8nhqIa-ZDXxsF7evWZpLOeb6K/view",
     image: "assets/naamii.png",
   },
+    {
+    title: "Fusemachine Fellowship",
+    issuer: "Fusemachine",
+    date: "April 2024",
+    link: "",
+    image: "assets/fusemachine.jpg",
+  },
 ];
 
 export function Certifications() {
