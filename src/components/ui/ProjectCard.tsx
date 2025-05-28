@@ -15,7 +15,7 @@ interface ProjectCardProps {
   image: string;
   link?: string;
   github?: string;
-  techStack: TechStackItem[];
+  techStack?: TechStackItem[];
 }
 
 export function ProjectCard({ title, description, image, link, github, techStack }: ProjectCardProps) {

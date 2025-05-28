@@ -14,6 +14,11 @@ export function Navbar() {
   const { isLogoAnimating, handleLogoClick } = useAnimatedLogo();
 
   useEffect(() => {
+    console.log(activeSection);
+  }, [activeSection]);
+
+
+  useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -23,12 +28,12 @@ export function Navbar() {
     const sections = document.querySelectorAll('section');
     const observer = new IntersectionObserver(
       (entries) => {
-        const visibleSection = entries.find((entry) => entry.isIntersecting);
-        if (visibleSection) {
-          setActiveSection(visibleSection.target.id);
+        const sorted = [...entries].filter(e => e.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (sorted.length > 0) {
+          setActiveSection(sorted[0].target.id);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.3 }
     );
 
     sections.forEach((section) => observer.observe(section));
